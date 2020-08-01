@@ -9,3 +9,6 @@ user_name.send_keys('username')
 
 passWord = browser.find_element_by_xpath('//*[@id="appendedtext2"]')
 passWord.send_keys('password')
+
+sign_in = browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/div[3]/button')
+sign_in.click()
