@@ -12,3 +12,6 @@ passWord.send_keys('password')
 
 sign_in = browser.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/div[3]/button')
 sign_in.click()
+
+proceed_pay = browser.find_element_by_xpath('//*[@id="registerForm"]/div[2]/div[3]/div/button')
+proceed_pay.click()
