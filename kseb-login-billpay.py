@@ -15,3 +15,6 @@ sign_in.click()
 
 proceed_pay = browser.find_element_by_xpath('//*[@id="registerForm"]/div[2]/div[3]/div/button')
 proceed_pay.click()
+
+debit_card = browser.find_element_by_xpath('//*[@id="pmOptions"]/button[3]')
+debit_card.click()
